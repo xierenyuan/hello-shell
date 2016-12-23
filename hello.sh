@@ -33,7 +33,6 @@
 # echo "确认版本号$VERSION 开始执行...";
 # else
 # echo "取消此操作"
-# exit 0
 # fi
 
 
@@ -47,5 +46,4 @@ git commit -m "[sehll 提交] $msg"
 git push
 else
 echo "终止提交"
-exit
 fi
